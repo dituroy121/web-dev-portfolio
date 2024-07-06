@@ -1,0 +1,82 @@
+
+
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-style: none;
+    font-optical-sizing: auto;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px 200px
+}
+/* shared styke */
+.text-primary{
+    color:#FD6e0A;
+}
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6e0A;
+    font-weight: 50px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 28px;
+    border: none;
+}
+
+.nav-title{
+    font-weight:800px;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right:50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* banner styls */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+
+}
+.benner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
